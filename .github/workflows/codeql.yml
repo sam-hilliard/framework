@@ -13,9 +13,6 @@ name: "CodeQL Advanced"
 
 on: workflow_dispatch
 
-paths:
-  - src
-
 jobs:
   analyze:
     name: Analyze (${{ matrix.language }})
